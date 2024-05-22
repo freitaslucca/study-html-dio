@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introdução ao HTML</title>
+</head>
+
+<body>
+    <h1>Princípios Básicos do HTML</h1>
+    <p>HTML (HyperText Markup Language) é a linguagem padrão utilizada para criar páginas web. Ele permite que você estruture seu conteúdo e adicione vários tipos de elementos que compõem uma página da web.</p>
+
+    <h2>Elementos de Cabeçalho</h2>
+    <p>Elementos de cabeçalho variam de <code>&lt;h1&gt;</code> a <code>&lt;h6&gt;</code> e são usados para definir títulos e subtítulos.</p>
+    <h1>Este é um título principal &lt;h1&gt;</h1>
+    <h2>Este é um subtítulo &lt;h2&gt;</h2>
+    <h3>Este é um subtítulo menor &lt;h3&gt;</h3>
+
+    <h2>Entradas de Formulário</h2>
+    <p>Os elementos de entrada são usados em formulários para capturar dados do usuário.</p>
+    <h3>Insira seu email</h3>
+    <input id="email" class="email" type="email" />
+    <h3>Insira sua senha</h3>
+    <input id="password" class="password" type="password" />
+    <button>Entrar</button>
+    <p id="lembrete">
+        É muito importante que as <strong>informações estejam corretas</strong>, revise-as se necessário!
+    </p>
+
+    <h2>Listas</h2>
+    <p>Listas podem ser ordenadas (<code>&lt;ol&gt;</code>) ou não ordenadas (<code>&lt;ul&gt;</code>).</p>
+    <h3>Lista Ordenada</h3>
+    <ol>
+        <li>Lucca</li>
+        <li>Carlos</li>
+        <li>Ricardo</li>
+        <li>Richard</li>
+    </ol>
+
+    <h2>Links</h2>
+    <p>Links são definidos com a tag <code>&lt;a&gt;</code>. Eles podem redirecionar para outra página ou para uma âncora na mesma página.</p>
+    <p>Link externo:</p>
+    <a href="https://www.linkedin.com/in/lucca-freitas-rodrigues-368b321a0/" target="_self" title="Clique aqui e confira">LinkedIn Lucca</a>
+    <p>Link interno:</p>
+    <a href="#lembrete">Redirecionar para lembrete</a>
+
+    <!-- Comentários -->
+    <h2>Comentários</h2>
+    <p>Comentários são usados para explicar partes do código e são ignorados pelo navegador. Eles são definidos assim:</p>
+    <pre>&lt;!-- Este é um comentário --&gt;</pre>
+
+    <!-- Exemplo de Comentário -->
+    <!-- Sempre que for começar uma lista, tem que ter uma <li> dentro de um <ol> ou <ul>. 
+         <ol> gera uma lista ordenada (numerada) e <ul> gera uma lista não ordenada (com marcadores). 
+         <li> é o elemento da lista. -->
+    
+</body>
+
+</html>
